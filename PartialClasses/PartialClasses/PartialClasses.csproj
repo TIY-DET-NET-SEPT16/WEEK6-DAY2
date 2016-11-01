@@ -144,8 +144,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Class1.cs" />
     <Compile Include="Models\ContactViewModel.cs" />
+    <Compile Include="Models\PartialClassesForMovies.cs" />
     <Compile Include="Movies.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -161,7 +161,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Movies.edmx</DependentUpon>
     </Compile>
-    <Compile Include="MoviesPartialClasses.cs" />
     <Compile Include="Movy.cs">
       <DependentUpon>Movies.tt</DependentUpon>
     </Compile>
